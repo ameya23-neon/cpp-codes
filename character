@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	
+	char ch = 'M';
+	int i = ch;
+	cout << "the ASCII code for " << ch << "is " << i << endl;
+	
+	cout << "Add one character to the code" << endl;
+	ch = ch + 1;
+	i = ch;
+	cout << "the ASCII code for " << ch << "is " << i << endl;
+
+	cout << "Displaying char using cout.put(ch)"<<endl;
+	cout.put(ch)<<endl;
+
+	cout << "done" << endl;
+	return 0;
+
+}
