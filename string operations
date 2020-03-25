@@ -1,0 +1,29 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	char charr1[20];
+	char charr2[20] = "Jaguar";
+	string str1,str3;
+	string str2 = "panther";
+	cout << "Enter the character ";
+	cin >> charr1;
+	cout << "Enter the string ";
+	cin >> str1;
+	cout << "All the strings and character are ";
+	cout << charr1 << " " << charr2 << " " << str1 << " " << str2<<endl;
+	cout << "The third letter in character 1 is " << charr1[2] << endl;
+	cout << "The third letter in character 2 is " << charr2[2] << endl;
+	cout << "The third letter in string 1 is " << str1[2] << endl;
+	cout << "The third letter in string 2 is " << str2[2] << endl;
+	cout << "String1 + string2= " << str1 + str2<<endl;
+	str1 = str2;
+	cout << "The string 1 is " << str1 << endl;
+	str1 += str2;
+	cout << "The string 1+string 2 is " << str1 << endl;
+	str3 = str1 + str2;
+	cout << "The string 3 is " << str3 << endl;
+
+	return 0;
+}
