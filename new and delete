@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int* p3 = new int[3];
+	p3[0] = 1;
+	p3[1] = 2;
+	p3[2] = 3;
+	cout << "p3[1]" << p3[1] << endl;
+	p3 = p3 + 1;
+	cout << "now p3[0] is " << p3[0] << endl;
+	p3 = p3 - 1;
+	delete[] p3;
+	return 0;
+}
